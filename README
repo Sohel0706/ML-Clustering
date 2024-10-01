@@ -1,0 +1,19 @@
+Google Colab link to project : 
+
+https://colab.research.google.com/drive/1BRf5tfPxZTjxYwDchnCEtvTanhbek63g?usp=sharing
+
+Intro :
+
+Depending on three features Recency, Frequency and Monetary cluster customers based on their buying behaviour.
+Project includes feature extraction, preprocessing, model training and predicting.
+Used KMeans clustering model from scikit-learn
+
+Insights drawn from final findings :
+
+There are three types of customers, according the the KMeans clustering algorithm:
+
+Label 0: Has not made purchase in the past 167 days, but has made around 15 purchases previously and spent among 296 dollars. These are dormant customer or customers that the store is going to lose. So, they can be targeted with Customer Engagement Campaigns, so that they start again to make new purchases.
+
+Label 1: Has made the last purchase in around 11 days before, has a frequency of making 408 purchases and spent around 8492 dollars in the store. These are the loyal customers. They can be given promotional offers and should be included in referral system.
+
+Label 2: Has made the last purchase in around 68 days before, has a frequency of making 69 purchases and spent around 1231 dollars. These are active customers who haven't made purchases in a while. They can be targeted with promotional offers, so that their recency and frequency of purchase increases.
